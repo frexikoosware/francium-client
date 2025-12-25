@@ -29,9 +29,6 @@ public class ModuleManager implements Jsonable, Util {
     private final List<Module> modules = new ArrayList<>();
 
     public void init() {
-        register(new Watermark());
-        register(new Coordinates());
-        register(new HudEditor());
         register(new ClickGui());
         register(new Notifications());
         register(new Criticals());
